@@ -1,5 +1,5 @@
-from django.contrib import path
-from .views import Homepage, AboutUsPage
+from django.urls import path
+from .views import HomePage, AboutUsPage
 
 
 urlpatterns = [
